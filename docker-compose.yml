@@ -6,6 +6,7 @@ services:
     environment:
       POSTGRES_PASSWORD: 17A05A87b
       POSTGRES_USER: AAB-87
+      POSTGRES_DB: db
     ports:
       - '5432:5432'
     volumes:
